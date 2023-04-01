@@ -1,0 +1,37 @@
+
+NET "in[3]" PULLUP;
+NET "in[2]" PULLUP;
+NET "in[1]" PULLUP;
+NET "in[0]" PULLUP;
+
+
+NET "out[0]" LOC = A3;
+NET "out[3]" LOC = C4;
+NET "out[2]" LOC = A4;
+NET "out[5]" LOC = D6;
+NET "out[1]" LOC = B4;
+NET "out[4]" LOC = C5;
+NET "en" LOC = C17;
+NET "dp" LOC = B3;
+NET "in[3]" LOC = E18;
+
+
+NET "out[6]" SLEW = FAST;
+NET "out[5]" SLEW = FAST;
+NET "out[4]" SLEW = FAST;
+NET "out[3]" SLEW = FAST;
+NET "out[2]" SLEW = FAST;
+NET "out[1]" SLEW = FAST;
+NET "out[0]" SLEW = FAST;
+
+
+NET "out[6]" LOC = C6;
+
+
+NET "dp" SLEW = FAST;
+NET "en" PULLUP;
+
+
+NET "in[2]" LOC = E16;
+NET "in[1]" LOC = F18;
+NET "in[0]" LOC = F17;
